@@ -4,6 +4,21 @@ Fast, simple, distraction free Markdown editor.
 
 ![screenshot](./screenshot.png)
 
+## This fork
+
+«Unsafe» HTML tags are returned back, so it's possible to author simple
+HTML pages or use JS libraries again.
+
+Source:
+
+```html
+Hello, world! The answer is «<script>document.write(40+2);</script>». Hello, world, again!
+```
+
+Result:
+
+> Hello, world! The answer is «42». Hello, world, again!
+
 ## Motivation
 
 There seem to be no simple, fast Markdown editors on Linux. 

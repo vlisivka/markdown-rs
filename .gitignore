@@ -3,3 +3,5 @@
 **/*.rs.bk
 
 *.glade~
+
+/.vscode
